@@ -1,0 +1,291 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          194,
+          240,
+          255,
+          255
+        ],
+        "outline": {
+          "color": [
+            101,
+            179,
+            200,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "ProvinciasEnriquecidas_3119",
+      "mode": "feature",
+      "name": "Provincias por Densidad de Población",
+      "highLightColor": "#7aeae6",
+      "types": [
+        {
+          "type": "pie",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showDataLabel": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "Nombre",
+      "valueFields": [
+        "POPDENS_CY"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1",
+        "displaySQL": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          199,
+          198,
+          255
+        ],
+        "outline": {
+          "color": [
+            207,
+            101,
+            99,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "ProvinciasEnriquecidas_790",
+      "mode": "feature",
+      "name": "Provincias por Renta",
+      "highLightColor": "#fadddd",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "Nombre",
+      "valueFields": [
+        "incometotalsais_nincca"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1",
+        "displaySQL": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          235,
+          254,
+          208,
+          255
+        ],
+        "outline": {
+          "color": [
+            166,
+            191,
+            116,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "ProvinciasEnriquecidas_3655",
+      "mode": "feature",
+      "name": "Provincias por Gasto de Vehículos",
+      "highLightColor": "#c9f9d7",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "Nombre",
+      "valueFields": [
+        "SPTVEBU"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1",
+        "displaySQL": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "ProvinciasEnriquecidas_8104",
+      "mode": "feature",
+      "name": "Provincias por Nº de Hogares",
+      "highLightColor": "#f3ebd2",
+      "types": [
+        {
+          "type": "pie",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showDataLabel": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "Nombre",
+      "valueFields": [
+        "housingtotalsais_canhous"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1",
+        "displaySQL": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          128,
+          100,
+          162,
+          128
+        ],
+        "outline": {
+          "color": [
+            140,
+            125,
+            158,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "ProvinciasEnriquecidas_2511",
+      "mode": "feature",
+      "name": "Provincias por Población Activa",
+      "highLightColor": "#e9d2f3",
+      "types": [
+        {
+          "type": "line",
+          "display": {
+            "colors": [
+              "#87ceeb"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "Nombre",
+      "valueFields": [
+        "employmenttotalsais_totatc"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}

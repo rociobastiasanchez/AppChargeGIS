@@ -1,0 +1,513 @@
+{
+  "theme": {
+    "name": "PlateauTheme",
+    "styles": [
+      "dark-green",
+      "orange",
+      "default",
+      "black",
+      "medium-grey",
+      "dark-blue",
+      "esri-blue",
+      "esri-green"
+    ],
+    "version": "2.19",
+    "sharedTheme": {
+      "isPortalSupport": false,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://rocio-master.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "<div class=\"attribute-custom-style\"><font color=\"#ffffff\" face=\"Comic Sans MS\" size=\"5\"> ChargeGIS</font></div>",
+  "subtitle": "<div class=\"attribute-custom-style\"><font color=\"#ffffff\" face=\"Comic Sans MS\" size=\"4\"><u>Aplicación para Analistas de RutApps</u></font></div>",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/PlateauTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "themes_PlateauTheme_widgets_HeaderController_Widget_20",
+        "name": "HeaderController",
+        "config": "configs/HeaderController/config_themes_PlateauTheme_widgets_HeaderController_Widget_20.json"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 25,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Scalebar_Widget_21",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Search_Widget_22",
+        "name": "Search",
+        "config": "configs/Search/config_widgets_Search_Widget_22.json"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "visible": false,
+        "position": {
+          "left": 200,
+          "bottom": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Coordinate_Widget_23",
+        "name": "Coordinate",
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_23.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "visible": false,
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_OverviewMap_Widget_24",
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_widgets_OverviewMap_Widget_24.json"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_HomeButton_Widget_25",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_MyLocation_Widget_26",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.19",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_27",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_27.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "widgets_Splash_Widget_28",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_28.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_ZoomSlider_Widget_29",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 149,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_ExtentNavigate_Widget_30",
+        "name": "ExtentNavigate"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "f1b7b89756d0474aa50451931ff6945f",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://rocio-master.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "InfoAnal",
+        "label": "Info Analistas",
+        "version": "0.0.1",
+        "IsController": false,
+        "uri": "widgets/InfoAnal/Widget",
+        "index": 2,
+        "id": "widgets_InfoAnal_Widget_41"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.19",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 3
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.19",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 4
+      },
+      {
+        "name": "Filter",
+        "version": "2.19",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_32.json",
+        "index": 5,
+        "id": "widgets_Filter_Widget_32"
+      },
+      {
+        "name": "Chart",
+        "version": "2.19",
+        "uri": "widgets/Chart/Widget",
+        "config": "configs/Chart/config_widgets_Chart_Widget_37.json",
+        "index": 6,
+        "id": "widgets_Chart_Widget_37"
+      },
+      {
+        "name": "Geoprocessing",
+        "label": "Búsqueda de candidatos (SimilaritySearch)",
+        "version": "2.19",
+        "icon": "configs\\Geoprocessing\\icon_widgets_Geoprocessing_Widget_43.png",
+        "uri": "widgets/Geoprocessing/Widget",
+        "config": "configs/Geoprocessing/config_widgets_Geoprocessing_Widget_43.json",
+        "index": 7,
+        "id": "widgets_Geoprocessing_Widget_43"
+      },
+      {
+        "name": "Geoprocessing",
+        "label": "Geoprocesamiento Estadístico",
+        "version": "2.19",
+        "icon": "configs\\Geoprocessing\\icon_widgets_Geoprocessing_Widget_40.jpeg",
+        "uri": "widgets/Geoprocessing/Widget",
+        "config": "configs/Geoprocessing/config_widgets_Geoprocessing_Widget_40.json",
+        "index": 8,
+        "id": "widgets_Geoprocessing_Widget_40"
+      },
+      {
+        "name": "Analysis",
+        "version": "2.19",
+        "icon": "configs\\Analysis\\icon_widgets_Analysis_Widget_34.png",
+        "uri": "widgets/Analysis/Widget",
+        "config": "configs/Analysis/config_widgets_Analysis_Widget_34.json",
+        "index": 9,
+        "id": "widgets_Analysis_Widget_34"
+      },
+      {
+        "name": "Screening",
+        "version": "2.19",
+        "IsController": false,
+        "uri": "widgets/Screening/Widget",
+        "config": "configs/Screening/config_widgets_Screening_Widget_44.json",
+        "index": 10,
+        "id": "widgets_Screening_Widget_44"
+      },
+      {
+        "name": "Print",
+        "version": "2.19",
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_widgets_Print_Widget_45.json",
+        "index": 12,
+        "id": "widgets_Print_Widget_45"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/PlateauTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "visible": true,
+          "position": {
+            "left": 25,
+            "bottom": 25,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "visible": false,
+          "position": {
+            "left": 55,
+            "top": 5,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "visible": false,
+          "position": {
+            "left": 200,
+            "bottom": 20,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "visible": false,
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "visible": true,
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "visible": true,
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "visible": false,
+          "version": "2.19",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 149,
+            "left": 7
+          },
+          "version": 2.3
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#d6f5d4",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 1000,
+      "height": 700
+    }
+  },
+  "wabVersion": "2.19",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Geoprocessing_Widget_43~filter-Resultado": {
+        "id": "widget~widgets_Geoprocessing_Widget_43~filter-Resultado",
+        "type": "Features",
+        "label": "Resultado",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID"
+            },
+            {
+              "name": "MATCH_ID",
+              "type": "esriFieldTypeInteger",
+              "alias": "MATCH_ID"
+            },
+            {
+              "name": "CAND_ID",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAND_ID"
+            },
+            {
+              "name": "populationtotalsais_otdensit",
+              "type": "esriFieldTypeSingle",
+              "alias": "2017 Densidad de Población (km2)"
+            },
+            {
+              "name": "incometotalsais_nincca",
+              "type": "esriFieldTypeSingle",
+              "alias": "2017 Ingreso medio anual por renta per cápita"
+            },
+            {
+              "name": "transportationais_tsptvebu",
+              "type": "esriFieldTypeSingle",
+              "alias": "2017 Gasto total en compra de vehículos"
+            },
+            {
+              "name": "employmenttotalsais_totatc",
+              "type": "esriFieldTypeSingle",
+              "alias": "2017 Población activa"
+            },
+            {
+              "name": "SIMRANK",
+              "type": "esriFieldTypeInteger",
+              "alias": "Similarity Rank"
+            },
+            {
+              "name": "SIMINDEX",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sum Squared Value Differences"
+            },
+            {
+              "name": "LABELRANK",
+              "type": "esriFieldTypeInteger",
+              "alias": "Render Rank"
+            }
+          ],
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "",
+  "logoAlt": "Logo organización"
+}
